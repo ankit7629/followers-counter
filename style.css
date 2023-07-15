@@ -1,0 +1,45 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+   background-color: antiquewhite;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.counter-container{
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.counter-container span{
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.counter-container .counter{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+}
